@@ -21,7 +21,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
-git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
+git clone https://github.com/wxfyes/luci-app-ttnode.git package/luci-app-ttnode
 
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
