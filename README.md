@@ -9,12 +9,12 @@ Build OpenWrt using GitHub Actions
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # 固件说明
-* 本项目下编辑生成的固件是N1固件，因需要F大内核支持，故此为半成品，小白请勿下载，或到这里下载成品N1固件[N1固件](https://github.com/wxfyes/N1packaging/releases)。
+* 本项目下编辑生成的固件是N1固件，因需要F大内核支持，故此为半成品，小白请勿下载，或到这里下载成品[N1固件](https://github.com/wxfyes/N1packaging/releases)。
 * 如果你有编译打包基础，可以下载此页面固件配置F大内核进行打包成品！
-## Tips
 
-- It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
-- Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
+## 打包脚本
+
+- 感谢© P3TERX提供本项目编译脚本
 
 ## Acknowledgments
 
