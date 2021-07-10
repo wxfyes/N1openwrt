@@ -15,6 +15,11 @@
 sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(arm\|\|aarch64\)/g' package/lean/luci-app-cpufreq/Makefile
 sed -i 's/services/system/g' package/lean/luci-app-cpufreq/luasrc/controller/cpufreq.lua
 
+#移除不用软件包
+#rm -rf package/lean/luci-app-dockerman
+#rm -rf package/lean/luci-app-wrtbwmon
+rm -rf package/lean/luci-theme-argon
+
 #添加额外软件包
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
