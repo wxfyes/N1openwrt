@@ -35,6 +35,7 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/xiaozhuai/luci-app-filebrowser.git package/luci-app-filebrowser
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
  
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
