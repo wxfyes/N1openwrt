@@ -35,11 +35,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-- name: Cache
-uses: klever1988/cachewrtbuild@main
-with:
-ccache: 'true'
-prefix: ${{ github.workspace }}/openwrt
+
 jobs:
   build:
     runs-on: ubuntu-20.04
