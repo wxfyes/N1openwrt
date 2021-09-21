@@ -19,8 +19,8 @@ on:
         required: false
         default: 'false'
         
-  schedule:
-    - cron: 0 18 * * *
+ # schedule:
+   # - cron: 0 18 * * *
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -35,7 +35,11 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-
+- name: Cache
+uses: klever1988/cachewrtbuild@main
+with:
+ccache: 'true'
+prefix: ${{ github.workspace }}/openwrt
 jobs:
   build:
     runs-on: ubuntu-20.04
