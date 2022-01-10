@@ -16,10 +16,10 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false
+        required: false 
         default: 'false'
         
-schedule:
+  schedule:
     - cron: 0 3 * * *
 
 env:
@@ -84,7 +84,7 @@ jobs:
         cd openwrt
         OpVersion1=$(echo "$(cat package/lean/default-settings/files/zzz-default-settings)" | grep -Po "DISTRIB_REVISION=\'\K[^\']*")
         echo $OpVersion1
-        OpVersion2=$(date "+%Y.%m.%d"\ \compiled\ \by\ \wangxiaofeng)
+        OpVersion2=$(date "+%Y.%m.%d"\ \compiled\ \by\ \wangxiaofeng\ \TG:@buluoge)
         echo $OpVersion2
         sed -i "s/DISTRIB_REVISION=.*/DISTRIB_REVISION=\'$OpVersion1\ $OpVersion2\'\"\ \>>\ \/\etc\/\openwrt_release/" package/lean/default-settings/files/zzz-default-settings
         echo "$(cat package/lean/default-settings/files/zzz-default-settings)" | grep -Po "DISTRIB_REVISION=\'\K[^\']*"
