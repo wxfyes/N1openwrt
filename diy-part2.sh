@@ -53,14 +53,15 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/t
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
-svn co https://github.com/fw876/helloworld/trunk/xray-core package/xray-core
-svn co https://github.com/fw876/helloworld/trunk/xray-plugin package/xray-plugin
-svn co https://github.com/fw876/helloworld/trunk/shadowsocks-rust package/shadowsocks-rust
-svn co https://github.com/fw876/helloworld/trunk/v2ray-plugin package/v2ray-plugin
-svn co https://github.com/fw876/helloworld/trunk/v2ray-core package/v2ray-core
-svn co https://github.com/fw876/helloworld/trunk/shadowsocksr-libev package/shadowsocksr-libev
+svn co https://github.com/fw876/helloworld/tree/master/xray-core package/xray-core
+svn co https://github.com/fw876/helloworld/tree/master/xray-plugin package/xray-plugin
+svn co https://github.com/fw876/helloworld/tree/master/shadowsocks-rust package/shadowsocks-rust
+svn co https://github.com/fw876/helloworld/tree/master/v2ray-plugin package/v2ray-plugin
+svn co https://github.com/fw876/helloworld/tree/master/v2ray-core package/v2ray-core
+svn co https://github.com/fw876/helloworld/tree/master/shadowsocksr-libev package/shadowsocksr-libev
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
-svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
+svn co https://github.com/fw876/helloworld/tree/master/luci-app-ssr-plus package/luci-app-ssr-plus
+svn co https://github.com/fw876/helloworld/tree/master/naiveproxy package/naiveproxy
 
 # themes
 svn co https://github.com/solidus1983/luci-theme-opentomato/trunk/luci/themes/luci-theme-opentomato package/luci-theme-opentomato
@@ -73,8 +74,7 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
-svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/naiveproxy
+
 
 #添加smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
