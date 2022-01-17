@@ -38,6 +38,7 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
 git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 git clone https://github.com/kenzok8/small.git package/small
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
  
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
